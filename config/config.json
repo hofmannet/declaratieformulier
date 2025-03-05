@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "declaratieformulier-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/declaratieformulier/DeclaratieformulierWebPart.js",
+          "manifest": "./src/webparts/declaratieformulier/DeclaratieformulierWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "DeclaratieformulierWebPartStrings": "lib/webparts/declaratieformulier/loc/{locale}.js"
+  }
+}

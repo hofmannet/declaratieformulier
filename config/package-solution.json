@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "declaratieformulier-client-side-solution",
+    "id": "289bd784-ef61-4b45-b1be-5c66271d3217",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.20.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "Declaratieformulier description"
+      },
+      "longDescription": {
+        "default": "Declaratieformulier description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "declaratieformulier Feature",
+        "description": "The feature that activates elements of the declaratieformulier solution.",
+        "id": "60e5b620-c7ed-4484-bf74-2f75ff5f7ae5",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/declaratieformulier.sppkg"
+  }
+}

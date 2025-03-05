@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "18.17.1",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.24.0"
+    },
+    "version": "1.20.0",
+    "libraryName": "declaratieformulier",
+    "libraryId": "289bd784-ef61-4b45-b1be-5c66271d3217",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "Declaratieformulier",
+    "solutionShortDescription": "Declaratieformulier description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}
